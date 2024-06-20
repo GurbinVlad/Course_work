@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#201E28"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Реєстрація"
+        android:textAllCaps="false"
+        android:textColor="#fdfdfd"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Введіть логін"
+        android:inputType="text"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введіть email"
+        android:inputType="textEmailAddress"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a" />
+
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        android:hint="Введіть телефон" />
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введіть пароль"
+        android:inputType="textPassword"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a" />
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp"
+        android:backgroundTint="#e2a600"
+        android:text="Продовжити"
+        android:textColor="#533E02"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/link_to_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/inter"
+        android:text="Вже маєте аккаунт? Авторизуйтеся"
+        android:textColor="#FFD625"
+        android:textSize="17sp" />
+
+</LinearLayout>
